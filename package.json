@@ -1,0 +1,16 @@
+{
+  "name": "reachinbox-email-scheduler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "worker": "npm.cmd --prefix backend run worker",
+    "db:migrate": "node scripts/migrate.js",
+    "test": "npm.cmd --prefix backend test"
+  },
+  "dependencies": {
+    "@neon/config": "^1.9.1",
+    "@neon/env": "^1.6.2"
+  }
+}
